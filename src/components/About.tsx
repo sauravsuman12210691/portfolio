@@ -3,13 +3,13 @@ import { Briefcase, GraduationCap, MapPin } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 px-4 bg-white">
+    <section id="about" className="py-20 px-4 bg-gradient-to-r from-[#89c4df] via-[#3B82F6] to-[#9333EA] text-white p-8 rounded-2xl shadow-lg text-center text-2xl font-semibold">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">About Me</h2>
+        <h2 className="text-4xl font-bold text-center text-white mb-12">About Me</h2>
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Left: Bio */}
-          <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
+          <div className="space-y-6 text-white text-lg leading-relaxed">
             <p>
               Hello! I'm <span className="font-semibold text-portfolio-purple">Saurav Suman</span>, a full-stack developer currently in my third year at Lovely Professional University, Punjab. I specialize in building scalable and intelligent web applications using the MERN stack, often integrating AI features for a smarter user experience.
             </p>
