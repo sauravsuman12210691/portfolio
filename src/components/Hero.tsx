@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
           <p className="text-gray-500 max-w-lg mx-auto md:mx-0 mb-8">
             A passionate developer specializing in creating beautiful, functional web experiences with modern technologies.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center md:justify-start">
             <a href="#projects" className="btn-primary">
               View My Work
             </a>
@@ -48,6 +48,13 @@ const Hero: React.FC = () => {
               className="border border-portfolio-purple text-portfolio-purple hover:bg-portfolio-purple hover:text-white font-medium py-2 px-6 rounded-md transition-colors duration-300"
             >
               Get In Touch
+            </a>
+            <a
+              href="/cv.pdf"
+              download
+              className="bg-gray-100 border border-gray-300 text-gray-700 hover:bg-gray-200 hover:text-black font-medium py-2 px-6 rounded-md transition-colors duration-300"
+            >
+              Download CV
             </a>
           </div>
         </div>
